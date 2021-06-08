@@ -1,0 +1,54 @@
+.sesbgc{
+	background-color: rgba(255,255,255,0.9);
+	color:black;
+}
+
+.vjs-control.vjs-button.vjs-reso{
+
+}
+
+.vjs-reso .tip-msg {
+    position: relative;
+    display: inline-block;
+    /*width: 80px;*/
+    border-bottom: 1px dotted black;
+}
+
+.vjs-reso .tip-msg .tip-msgtext {
+    visibility: hidden;
+    width: 50px;
+    background-color: rgba(0,0,0,0.5);
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 150%;
+    left: 50%;
+    margin-left: -25px;
+}
+
+.vjs-reso .tip-msg .tip-msgtext .tip-operator{
+	border-bottom: 1px solid rgba(255,255,255,0.7);
+	padding: 5px;
+}
+
+.vjs-reso .tip-msg .tip-msgtext .tip-operator:hover{
+	background-color: rgba(255,255,255,0.3);
+}
+
+/*.vjs-reso .tip-msg .tip-msgtext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: black transparent transparent transparent;
+}*/
+
+.vjs-reso:hover .tip-msg .tip-msgtext {
+    visibility: visible;
+}
